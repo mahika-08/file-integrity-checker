@@ -1,59 +1,17 @@
-from scanner import scan_directory
-from hashing import generate_hash
-from database import load_hashes, save_hashes
-from logger import log_change
+from baseline import create_baseline
+from integrity_checker import check_integrity
 
-# Load previous hashes (baseline)
-old_hashes = load_hashes()
+print("===== File Integrity Checker =====")
+print("1. Create Baseline")
+print("2. Check Integrity")
 
-# Dictionary for current scan
-current_hashes = {}
+choice = input("Enter your choice: ")
 
-# Scan all files
-files = scan_directory("monitored")
+if choice == "1":
+    create_baseline()
 
-for file in files:
+elif choice == "2":
+    check_integrity()
 
-    current_hash = generate_hash(file)
-    current_hashes[file] = current_hash
-
-    print(f"\nFile: {file}")
-    print(f"Hash: {current_hash}")
-
-    if file not in old_hashes:
-        print("[NEW FILE]")
-
-    elif old_hashes[file] != current_hash:
-        print("[MODIFIED]")
-
-    else:
-        print("[UNCHANGED]")
-
-    print("-" * 60)
-# -----------------------------
-# Compare old hashes with new
-# -----------------------------
-
-# Check for new or modified files
-for file, current_hash in current_hashes.items():
-
-    if file not in old_hashes:
-        print(f"[NEW FILE] {file}")
-        log_change("NEW FILE", file)
-
-    elif old_hashes[file] != current_hash:
-        print(f"[MODIFIED] {file}")
-        log_change("MODIFIED", file)
-
-    else:
-        print(f"[UNCHANGED] {file}")
-
-# Check for deleted files
-for file in old_hashes:
-
-    if file not in current_hashes:
-        print(f"[DELETED] {file}")
-        log_change("DELETED", file)
-
-# Save current hashes as the new baseline
-save_hashes(current_hashes)
+else:
+    print("Invalid choice.")
