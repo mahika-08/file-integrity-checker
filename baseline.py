@@ -2,9 +2,9 @@ from scanner import scan_directory
 from hashing import generate_hash
 from database import save_hashes
 
-def create_baseline():
+def create_baseline(folder):
 
-    files = scan_directory("monitored")
+    files = scan_directory(folder)
 
     hashes = {}
 
@@ -14,4 +14,4 @@ def create_baseline():
 
     save_hashes(hashes)
 
-    print("Baseline created successfully.")
+    return "✅ Baseline created successfully."

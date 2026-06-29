@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Integrity Checker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🔒</span>
+        <div>
+          <h1>File Integrity Checker</h1>
+          <p>Protect your files from unauthorized changes using SHA-256 hashing</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Flash message -->
+    {% if message %}
+    <div class="alert alert-{{ message.type }}">
+      {% if message.type == 'success' %}✅{% else %}⚠️{% endif %}
+      {{ message.text }}
+    </div>
+    {% endif %}
+
+    <!-- Folder Selection -->
+    <section class="card">
+      <div class="card-label">Step 0</div>
+      <h2 class="card-title">📂 Choose Folder to Monitor</h2>
+      <p class="card-desc">Paste the full path of the folder you want to protect.</p>
+      <form action="/set_folder" method="POST" class="folder-form">
+        <input
+          type="text"
+          name="folder"
+          value="{{ folder }}"
+          placeholder="e.g. C:\Users\Harsh\Documents or /home/user/docs"
+          class="folder-input"
+          required>
+        <button type="submit" class="btn btn-secondary">Save Folder</button>
+      </form>
+      <p class="current-folder">Current folder: <code>{{ folder }}</code></p>
+    </section>
+
+    <!-- Action Cards -->
+    <div class="actions-grid">
+
+      <section class="card action-card">
+        <div class="card-label step-label">Step 1</div>
+        <div class="action-icon">📸</div>
+        <h2 class="card-title">Create Trusted Snapshot</h2>
+        <p class="card-desc">
+          Save the current state of all files in your folder as the trusted baseline.
+          Do this once when all files are safe and unmodified.
+        </p>
+        <a href="/baseline" class="btn btn-primary">Create Snapshot</a>
+      </section>
+
+      <section class="card action-card">
+        <div class="card-label step-label">Step 2</div>
+        <div class="action-icon">🔍</div>
+        <h2 class="card-title">Scan for Changes</h2>
+        <p class="card-desc">
+          Compare current files against your trusted snapshot.
+          Any additions, deletions, or modifications will be detected.
+        </p>
+        <a href="/check" class="btn btn-primary">Scan Now</a>
+      </section>
+
+    </div>
+
+    <!-- Results -->
+    <section class="card report-card">
+      <h2 class="card-title">📊 Scan Report</h2>
+
+      {% if scan %}
+
+        <!-- Stats Row -->
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-number">{{ scan.stats.scanned }}</span>
+            <span class="stat-label">Files Scanned</span>
+          </div>
+          <div class="stat-box stat-safe">
+            <span class="stat-number">{{ scan.stats.unchanged }}</span>
+            <span class="stat-label">Unchanged</span>
+          </div>
+          <div class="stat-box stat-modified">
+            <span class="stat-number">{{ scan.stats.modified }}</span>
+            <span class="stat-label">Modified</span>
+          </div>
+          <div class="stat-box stat-new">
+            <span class="stat-number">{{ scan.stats.new }}</span>
+            <span class="stat-label">New</span>
+          </div>
+          <div class="stat-box stat-deleted">
+            <span class="stat-number">{{ scan.stats.deleted }}</span>
+            <span class="stat-label">Deleted</span>
+          </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="tab active" data-filter="all">All ({{ scan.stats.scanned }})</button>
+          <button class="tab" data-filter="MODIFIED">⚠ Modified ({{ scan.stats.modified }})</button>
+          <button class="tab" data-filter="NEW">➕ New ({{ scan.stats.new }})</button>
+          <button class="tab" data-filter="DELETED">❌ Deleted ({{ scan.stats.deleted }})</button>
+          <button class="tab" data-filter="UNCHANGED">✅ Unchanged ({{ scan.stats.unchanged }})</button>
+        </div>
+
+        <!-- Results Table -->
+        <div class="table-wrap">
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th>File</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for file in scan.files %}
+              <tr class="file-row" data-status="{{ file.status }}">
+                <td class="file-name">{{ file.name }}</td>
+                <td>
+                  {% if file.status == 'UNCHANGED' %}
+                    <span class="badge badge-safe">✅ Unchanged</span>
+                  {% elif file.status == 'MODIFIED' %}
+                    <span class="badge badge-modified">⚠ Modified</span>
+                  {% elif file.status == 'NEW' %}
+                    <span class="badge badge-new">➕ New File</span>
+                  {% elif file.status == 'DELETED' %}
+                    <span class="badge badge-deleted">❌ Deleted</span>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+      {% else %}
+        <div class="empty-state">
+          <p class="empty-icon">🛡️</p>
+          <p>No scan performed yet.</p>
+          <p class="empty-sub">Create a snapshot first, then click <strong>Scan Now</strong> to check for changes.</p>
+        </div>
+      {% endif %}
+    </section>
+
+    <!-- About -->
+    <section class="card about-card">
+      <h2 class="card-title">ℹ️ How It Works</h2>
+      <p>
+        This tool uses <strong>SHA-256 cryptographic hashing</strong> to fingerprint every file in your folder.
+        Even a single changed byte produces a completely different hash, making unauthorized modifications
+        impossible to hide. All change events are logged to <code>logs/changes.log</code>.
+      </p>
+    </section>
+
+  </main>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
