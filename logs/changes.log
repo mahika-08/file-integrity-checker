@@ -1,264 +1,103 @@
-2026-06-27 20:56:17 | MODIFIED | monitored\new.txt
-2026-06-28 11:28:50 | MODIFIED | monitored\notes.pdf
-2026-06-28 11:29:27 | DELETED | monitored\new.txt
-2026-06-28 11:31:34 | NEW FILE | monitored\new.txt
-2026-06-28 14:22:08 | NEW FILE | monitored\test.txt
-2026-06-28 23:08:30 | MODIFIED | monitored\test.txt
-2026-06-29 20:18:05 |  * Debugger is active!
-2026-06-29 20:18:05 |  * Debugger PIN: 107-203-411
-2026-06-29 20:18:09 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\app.py', reloading
-2026-06-29 20:18:09 |  * Debugger is active!
-2026-06-29 20:18:09 |  * Debugger PIN: 107-203-411
-2026-06-29 20:18:10 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\app.py', reloading
-2026-06-29 20:18:11 |  * Debugger is active!
-2026-06-29 20:18:11 |  * Debugger PIN: 107-203-411
-2026-06-29 20:18:12 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\app.py', reloading
-2026-06-29 20:18:13 |  * Debugger is active!
-2026-06-29 20:18:13 |  * Debugger PIN: 107-203-411
-2026-06-29 20:19:01 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\baseline.py', reloading
-2026-06-29 20:19:02 |  * Debugger is active!
-2026-06-29 20:19:02 |  * Debugger PIN: 107-203-411
-2026-06-29 20:19:03 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\baseline.py', reloading
-2026-06-29 20:19:03 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\baseline.py', reloading
-2026-06-29 20:19:04 |  * Debugger is active!
-2026-06-29 20:19:04 |  * Debugger PIN: 107-203-411
-2026-06-29 20:19:08 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\baseline.py', reloading
-2026-06-29 20:19:09 |  * Debugger is active!
-2026-06-29 20:19:09 |  * Debugger PIN: 107-203-411
-2026-06-29 20:19:20 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\baseline.py', reloading
-2026-06-29 20:19:21 |  * Debugger is active!
-2026-06-29 20:19:21 |  * Debugger PIN: 107-203-411
-2026-06-29 20:23:04 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:23:04 |  * Debugger is active!
-2026-06-29 20:23:04 |  * Debugger PIN: 107-203-411
-2026-06-29 20:23:08 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:23:08 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:23:09 |  * Debugger is active!
-2026-06-29 20:23:09 |  * Debugger PIN: 107-203-411
-2026-06-29 20:23:12 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:23:13 |  * Debugger is active!
-2026-06-29 20:23:13 |  * Debugger PIN: 107-203-411
-2026-06-29 20:23:32 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:23:33 |  * Debugger is active!
-2026-06-29 20:23:33 |  * Debugger PIN: 107-203-411
-2026-06-29 20:24:08 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:24:09 |  * Debugger is active!
-2026-06-29 20:24:09 |  * Debugger PIN: 107-203-411
-2026-06-29 20:24:15 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:24:16 |  * Debugger is active!
-2026-06-29 20:24:16 |  * Debugger PIN: 107-203-411
-2026-06-29 20:24:28 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:24:28 |  * Debugger is active!
-2026-06-29 20:24:28 |  * Debugger PIN: 107-203-411
-2026-06-29 20:24:33 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:24:34 |  * Debugger is active!
-2026-06-29 20:24:34 |  * Debugger PIN: 107-203-411
-2026-06-29 20:24:46 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:24:46 |  * Debugger is active!
-2026-06-29 20:24:46 |  * Debugger PIN: 107-203-411
-2026-06-29 20:24:47 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:24:48 |  * Debugger is active!
-2026-06-29 20:24:48 |  * Debugger PIN: 107-203-411
-2026-06-29 20:25:05 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:25:05 |  * Debugger is active!
-2026-06-29 20:25:05 |  * Debugger PIN: 107-203-411
-2026-06-29 20:25:15 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:25:15 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:25:15 |  * Debugger is active!
-2026-06-29 20:25:15 |  * Debugger PIN: 107-203-411
-2026-06-29 20:35:25 | 127.0.0.1 - - [29/Jun/2026 20:35:25] "GET / HTTP/1.1" 200 -
-2026-06-29 20:35:25 | 127.0.0.1 - - [29/Jun/2026 20:35:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:35:27 | 127.0.0.1 - - [29/Jun/2026 20:35:27] "GET / HTTP/1.1" 200 -
-2026-06-29 20:35:27 | 127.0.0.1 - - [29/Jun/2026 20:35:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:35:27 | 127.0.0.1 - - [29/Jun/2026 20:35:27] "GET / HTTP/1.1" 200 -
-2026-06-29 20:35:27 | 127.0.0.1 - - [29/Jun/2026 20:35:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:35:30 | 127.0.0.1 - - [29/Jun/2026 20:35:30] "GET /baseline HTTP/1.1" 200 -
-2026-06-29 20:35:30 | 127.0.0.1 - - [29/Jun/2026 20:35:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:35:30 | 127.0.0.1 - - [29/Jun/2026 20:35:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:35:34 | 127.0.0.1 - - [29/Jun/2026 20:35:34] "[35m[1mGET /check HTTP/1.1[0m" 500 -
-2026-06-29 20:35:34 | 127.0.0.1 - - [29/Jun/2026 20:35:34] "GET /check?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-2026-06-29 20:35:34 | 127.0.0.1 - - [29/Jun/2026 20:35:34] "GET /check?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-2026-06-29 20:35:34 | 127.0.0.1 - - [29/Jun/2026 20:35:34] "GET /check?__debugger__=yes&cmd=resource&f=console.png&s=ZAhKTiraLwlwTERvjV0g HTTP/1.1" 200 -
-2026-06-29 20:35:34 | 127.0.0.1 - - [29/Jun/2026 20:35:34] "GET /check?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-2026-06-29 20:36:34 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:36:35 |  * Debugger is active!
-2026-06-29 20:36:35 |  * Debugger PIN: 107-203-411
-2026-06-29 20:36:35 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 20:36:36 |  * Debugger is active!
-2026-06-29 20:36:36 |  * Debugger PIN: 107-203-411
-2026-06-29 20:36:48 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-06-30 00:45:13 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-06-29 20:36:48 | [33mPress CTRL+C to quit[0m
-2026-06-29 20:36:48 |  * Restarting with watchdog (windowsapi)
-2026-06-29 20:36:49 |  * Debugger is active!
-2026-06-29 20:36:49 |  * Debugger PIN: 107-203-411
-2026-06-29 20:37:14 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-06-30 00:45:13 | [33mPress CTRL+C to quit[0m
+2026-06-30 00:45:13 |  * Restarting with watchdog (windowsapi)
+2026-06-30 00:45:14 |  * Debugger is active!
+2026-06-30 00:45:14 |  * Debugger PIN: 107-203-411
+2026-06-30 00:45:26 | 127.0.0.1 - - [30/Jun/2026 00:45:26] "GET / HTTP/1.1" 200 -
+2026-06-30 00:45:27 | 127.0.0.1 - - [30/Jun/2026 00:45:27] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-30 00:45:27 | 127.0.0.1 - - [30/Jun/2026 00:45:27] "GET /static/script.js HTTP/1.1" 200 -
+2026-06-30 00:45:50 | NEW FILE | monitored\image.png
+2026-06-30 00:45:50 | NEW FILE | monitored\new.txt
+2026-06-30 00:45:50 | NEW FILE | monitored\notes.pdf
+2026-06-30 00:45:50 | NEW FILE | monitored\subfolder\data.csv
+2026-06-30 00:45:50 | 127.0.0.1 - - [30/Jun/2026 00:45:50] "GET /check HTTP/1.1" 200 -
+2026-06-30 00:45:50 | 127.0.0.1 - - [30/Jun/2026 00:45:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 00:45:50 | 127.0.0.1 - - [30/Jun/2026 00:45:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:11:07 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-06-29 20:37:14 | [33mPress CTRL+C to quit[0m
-2026-06-29 20:37:14 |  * Restarting with watchdog (windowsapi)
-2026-06-29 20:37:15 |  * Debugger is active!
-2026-06-29 20:37:15 |  * Debugger PIN: 107-203-411
-2026-06-29 20:37:30 | 127.0.0.1 - - [29/Jun/2026 20:37:30] "GET /check HTTP/1.1" 200 -
-2026-06-29 20:37:30 | 127.0.0.1 - - [29/Jun/2026 20:37:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:37:37 | 127.0.0.1 - - [29/Jun/2026 20:37:37] "GET /check HTTP/1.1" 200 -
-2026-06-29 20:37:37 | 127.0.0.1 - - [29/Jun/2026 20:37:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:39:16 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-06-30 15:11:07 | [33mPress CTRL+C to quit[0m
+2026-06-30 15:11:07 |  * Restarting with watchdog (windowsapi)
+2026-06-30 15:11:08 |  * Debugger is active!
+2026-06-30 15:11:08 |  * Debugger PIN: 304-197-213
+2026-06-30 15:11:24 | 127.0.0.1 - - [30/Jun/2026 15:11:24] "GET / HTTP/1.1" 200 -
+2026-06-30 15:11:24 | 127.0.0.1 - - [30/Jun/2026 15:11:24] "GET /static/style.css HTTP/1.1" 200 -
+2026-06-30 15:11:24 | 127.0.0.1 - - [30/Jun/2026 15:11:24] "GET /static/script.js HTTP/1.1" 200 -
+2026-06-30 15:11:26 | 127.0.0.1 - - [30/Jun/2026 15:11:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-30 15:11:48 | 127.0.0.1 - - [30/Jun/2026 15:11:48] "POST /set_folder HTTP/1.1" 200 -
+2026-06-30 15:11:48 | 127.0.0.1 - - [30/Jun/2026 15:11:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:11:48 | 127.0.0.1 - - [30/Jun/2026 15:11:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:11:56 | 127.0.0.1 - - [30/Jun/2026 15:11:56] "GET /baseline HTTP/1.1" 200 -
+2026-06-30 15:11:56 | 127.0.0.1 - - [30/Jun/2026 15:11:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:11:56 | 127.0.0.1 - - [30/Jun/2026 15:11:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:12:04 | 127.0.0.1 - - [30/Jun/2026 15:12:04] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:12:04 | 127.0.0.1 - - [30/Jun/2026 15:12:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:12:04 | 127.0.0.1 - - [30/Jun/2026 15:12:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:12:19 | 127.0.0.1 - - [30/Jun/2026 15:12:19] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:12:19 | 127.0.0.1 - - [30/Jun/2026 15:12:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:12:19 | 127.0.0.1 - - [30/Jun/2026 15:12:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:12:23 | 127.0.0.1 - - [30/Jun/2026 15:12:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:12:24 | 127.0.0.1 - - [30/Jun/2026 15:12:24] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:12:24 | 127.0.0.1 - - [30/Jun/2026 15:12:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:12:24 | 127.0.0.1 - - [30/Jun/2026 15:12:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:13:05 | NEW FILE | monitored\test.txt
+2026-06-30 15:13:05 | 127.0.0.1 - - [30/Jun/2026 15:13:05] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:13:05 | 127.0.0.1 - - [30/Jun/2026 15:13:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:13:05 | 127.0.0.1 - - [30/Jun/2026 15:13:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:13:38 | 127.0.0.1 - - [30/Jun/2026 15:13:38] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:13:38 | 127.0.0.1 - - [30/Jun/2026 15:13:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:13:38 | 127.0.0.1 - - [30/Jun/2026 15:13:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:13:42 | 127.0.0.1 - - [30/Jun/2026 15:13:42] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:13:42 | 127.0.0.1 - - [30/Jun/2026 15:13:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:13:42 | 127.0.0.1 - - [30/Jun/2026 15:13:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 15:14:00 | MODIFIED | monitored\new.txt
+2026-06-30 15:14:00 | 127.0.0.1 - - [30/Jun/2026 15:14:00] "GET /check HTTP/1.1" 200 -
+2026-06-30 15:14:00 | 127.0.0.1 - - [30/Jun/2026 15:14:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 15:14:00 | 127.0.0.1 - - [30/Jun/2026 15:14:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:24:41 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-06-29 20:39:16 | [33mPress CTRL+C to quit[0m
-2026-06-29 20:39:16 |  * Restarting with watchdog (windowsapi)
-2026-06-29 20:39:17 |  * Debugger is active!
-2026-06-29 20:39:17 |  * Debugger PIN: 107-203-411
-2026-06-29 20:39:18 | MODIFIED | monitored\test.txt
-2026-06-29 20:39:18 | 127.0.0.1 - - [29/Jun/2026 20:39:18] "GET /check HTTP/1.1" 200 -
-2026-06-29 20:39:19 | 127.0.0.1 - - [29/Jun/2026 20:39:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:39:21 | MODIFIED | monitored\test.txt
-2026-06-29 20:39:21 | 127.0.0.1 - - [29/Jun/2026 20:39:21] "GET /check HTTP/1.1" 200 -
-2026-06-29 20:39:21 | 127.0.0.1 - - [29/Jun/2026 20:39:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:39:21 | 127.0.0.1 - - [29/Jun/2026 20:39:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:44:32 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-06-29 20:44:32 | [33mPress CTRL+C to quit[0m
-2026-06-29 20:44:32 |  * Restarting with watchdog (windowsapi)
-2026-06-29 20:44:32 |  * Debugger is active!
-2026-06-29 20:44:32 |  * Debugger PIN: 107-203-411
-2026-06-29 20:45:00 | 127.0.0.1 - - [29/Jun/2026 20:45:00] "GET / HTTP/1.1" 200 -
-2026-06-29 20:45:00 | 127.0.0.1 - - [29/Jun/2026 20:45:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:05 | 127.0.0.1 - - [29/Jun/2026 20:45:05] "GET /baseline HTTP/1.1" 200 -
-2026-06-29 20:45:05 | 127.0.0.1 - - [29/Jun/2026 20:45:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:05 | 127.0.0.1 - - [29/Jun/2026 20:45:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:14 | 127.0.0.1 - - [29/Jun/2026 20:45:14] "GET /check HTTP/1.1" 200 -
-2026-06-29 20:45:14 | 127.0.0.1 - - [29/Jun/2026 20:45:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:14 | 127.0.0.1 - - [29/Jun/2026 20:45:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:46 | 127.0.0.1 - - [29/Jun/2026 20:45:46] "GET /baseline HTTP/1.1" 200 -
-2026-06-29 20:45:46 | 127.0.0.1 - - [29/Jun/2026 20:45:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:46 | 127.0.0.1 - - [29/Jun/2026 20:45:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:50 | 127.0.0.1 - - [29/Jun/2026 20:45:50] "GET /check HTTP/1.1" 200 -
-2026-06-29 20:45:50 | 127.0.0.1 - - [29/Jun/2026 20:45:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:45:50 | 127.0.0.1 - - [29/Jun/2026 20:45:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 20:58:18 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-06-29 20:58:18 | [33mPress CTRL+C to quit[0m
-2026-06-29 20:58:18 |  * Restarting with watchdog (windowsapi)
-2026-06-29 20:58:19 |  * Debugger is active!
-2026-06-29 20:58:19 |  * Debugger PIN: 107-203-411
-2026-06-29 20:58:35 | 127.0.0.1 - - [29/Jun/2026 20:58:35] "GET / HTTP/1.1" 200 -
-2026-06-29 20:58:36 | 127.0.0.1 - - [29/Jun/2026 20:58:36] "GET /static/style.css HTTP/1.1" 200 -
-2026-06-29 20:58:36 | 127.0.0.1 - - [29/Jun/2026 20:58:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-06-29 21:00:20 | 127.0.0.1 - - [29/Jun/2026 21:00:20] "GET / HTTP/1.1" 200 -
-2026-06-29 21:00:20 | 127.0.0.1 - - [29/Jun/2026 21:00:20] "GET /static/style.css HTTP/1.1" 200 -
-2026-06-29 21:00:58 | 127.0.0.1 - - [29/Jun/2026 21:00:58] "GET /baseline HTTP/1.1" 200 -
-2026-06-29 21:00:58 | 127.0.0.1 - - [29/Jun/2026 21:00:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:01:01 | 127.0.0.1 - - [29/Jun/2026 21:01:01] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:01:01 | 127.0.0.1 - - [29/Jun/2026 21:01:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:11:23 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\globals.py', reloading
-2026-06-29 21:11:23 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:11:24 |  * Debugger is active!
-2026-06-29 21:11:24 |  * Debugger PIN: 107-203-411
-2026-06-29 21:11:24 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\app.py', reloading
-2026-06-29 21:11:24 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:11:25 |  * Debugger is active!
-2026-06-29 21:11:25 |  * Debugger PIN: 107-203-411
-2026-06-29 21:11:29 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\scanner.py', reloading
-2026-06-29 21:11:30 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:11:30 |  * Debugger is active!
-2026-06-29 21:11:30 |  * Debugger PIN: 107-203-411
-2026-06-29 21:11:53 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\baseline.py', reloading
-2026-06-29 21:11:53 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:11:53 |  * Debugger is active!
-2026-06-29 21:11:53 |  * Debugger PIN: 107-203-411
-2026-06-29 21:12:03 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\baseline.py', reloading
-2026-06-29 21:12:04 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:12:04 |  * Debugger is active!
-2026-06-29 21:12:04 |  * Debugger PIN: 107-203-411
-2026-06-29 21:12:30 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 21:12:30 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:12:31 |  * Debugger is active!
-2026-06-29 21:12:31 |  * Debugger PIN: 107-203-411
-2026-06-29 21:12:36 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\__init__.py', reloading
-2026-06-29 21:12:36 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:12:37 |  * Debugger is active!
-2026-06-29 21:12:37 |  * Debugger PIN: 107-203-411
-2026-06-29 21:12:45 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\integrity_checker.py', reloading
-2026-06-29 21:12:45 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:22:48 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-06-29 21:22:48 | [33mPress CTRL+C to quit[0m
-2026-06-29 21:22:48 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:22:48 |  * Debugger is active!
-2026-06-29 21:22:48 |  * Debugger PIN: 107-203-411
-2026-06-29 21:22:54 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\app.py', reloading
-2026-06-29 21:22:54 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:22:54 |  * Debugger is active!
-2026-06-29 21:22:54 |  * Debugger PIN: 107-203-411
-2026-06-29 21:22:54 | 127.0.0.1 - - [29/Jun/2026 21:22:54] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:22:54 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\typing.py', reloading
-2026-06-29 21:22:54 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:22:55 |  * Debugger is active!
-2026-06-29 21:22:55 |  * Debugger PIN: 107-203-411
-2026-06-29 21:22:57 | 127.0.0.1 - - [29/Jun/2026 21:22:57] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:22:57 | 127.0.0.1 - - [29/Jun/2026 21:22:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:23:02 | 127.0.0.1 - - [29/Jun/2026 21:23:02] "GET / HTTP/1.1" 200 -
-2026-06-29 21:23:02 | 127.0.0.1 - - [29/Jun/2026 21:23:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:23:40 | 127.0.0.1 - - [29/Jun/2026 21:23:40] "GET / HTTP/1.1" 200 -
-2026-06-29 21:23:40 | 127.0.0.1 - - [29/Jun/2026 21:23:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:24:07 | 127.0.0.1 - - [29/Jun/2026 21:24:07] "POST /set_folder HTTP/1.1" 200 -
-2026-06-29 21:24:07 | 127.0.0.1 - - [29/Jun/2026 21:24:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:24:21 | 127.0.0.1 - - [29/Jun/2026 21:24:21] "POST /set_folder HTTP/1.1" 200 -
-2026-06-29 21:24:21 | 127.0.0.1 - - [29/Jun/2026 21:24:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:26:31 |  * Detected change in 'C:\\Users\\MAHIKA DADHEECH\\file_integrity_checker\\logger.py', reloading
-2026-06-29 21:26:31 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:26:32 |  * Debugger is active!
-2026-06-29 21:26:32 |  * Debugger PIN: 107-203-411
-2026-06-29 21:44:42 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-06-29 21:44:42 | [33mPress CTRL+C to quit[0m
-2026-06-29 21:44:42 |  * Restarting with watchdog (windowsapi)
-2026-06-29 21:44:43 |  * Debugger is active!
-2026-06-29 21:44:43 |  * Debugger PIN: 107-203-411
-2026-06-29 21:44:49 | 127.0.0.1 - - [29/Jun/2026 21:44:49] "GET / HTTP/1.1" 200 -
-2026-06-29 21:44:49 | 127.0.0.1 - - [29/Jun/2026 21:44:49] "GET /static/style.css HTTP/1.1" 200 -
-2026-06-29 21:44:49 | 127.0.0.1 - - [29/Jun/2026 21:44:49] "GET /static/script.js HTTP/1.1" 200 -
-2026-06-29 21:46:15 | 127.0.0.1 - - [29/Jun/2026 21:46:15] "POST /set_folder HTTP/1.1" 200 -
-2026-06-29 21:46:15 | 127.0.0.1 - - [29/Jun/2026 21:46:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:46:15 | 127.0.0.1 - - [29/Jun/2026 21:46:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:46:27 | 127.0.0.1 - - [29/Jun/2026 21:46:27] "GET /baseline HTTP/1.1" 200 -
-2026-06-29 21:46:27 | 127.0.0.1 - - [29/Jun/2026 21:46:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:46:27 | 127.0.0.1 - - [29/Jun/2026 21:46:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:46:36 | 127.0.0.1 - - [29/Jun/2026 21:46:36] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:46:36 | 127.0.0.1 - - [29/Jun/2026 21:46:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:46:36 | 127.0.0.1 - - [29/Jun/2026 21:46:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:48:46 | 127.0.0.1 - - [29/Jun/2026 21:48:46] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:48:46 | 127.0.0.1 - - [29/Jun/2026 21:48:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:48:46 | 127.0.0.1 - - [29/Jun/2026 21:48:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:48:51 | 127.0.0.1 - - [29/Jun/2026 21:48:51] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:48:51 | 127.0.0.1 - - [29/Jun/2026 21:48:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:48:51 | 127.0.0.1 - - [29/Jun/2026 21:48:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:49:00 | 127.0.0.1 - - [29/Jun/2026 21:49:00] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:49:00 | 127.0.0.1 - - [29/Jun/2026 21:49:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:49:00 | 127.0.0.1 - - [29/Jun/2026 21:49:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:50:13 | 127.0.0.1 - - [29/Jun/2026 21:50:13] "POST /set_folder HTTP/1.1" 200 -
-2026-06-29 21:50:14 | 127.0.0.1 - - [29/Jun/2026 21:50:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:50:14 | 127.0.0.1 - - [29/Jun/2026 21:50:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:50:18 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\image.png
-2026-06-29 21:50:18 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\new.txt
-2026-06-29 21:50:18 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\notes.pdf
-2026-06-29 21:50:18 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\test.txt
-2026-06-29 21:50:18 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\subfolder\data.csv
-2026-06-29 21:50:18 | 127.0.0.1 - - [29/Jun/2026 21:50:18] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:50:18 | 127.0.0.1 - - [29/Jun/2026 21:50:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:50:18 | 127.0.0.1 - - [29/Jun/2026 21:50:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:51:08 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\image.png
-2026-06-29 21:51:08 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\new.txt
-2026-06-29 21:51:08 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\notes.pdf
-2026-06-29 21:51:08 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\test.txt
-2026-06-29 21:51:08 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\subfolder\data.csv
-2026-06-29 21:51:08 | 127.0.0.1 - - [29/Jun/2026 21:51:08] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:51:08 | 127.0.0.1 - - [29/Jun/2026 21:51:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:51:08 | 127.0.0.1 - - [29/Jun/2026 21:51:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2026-06-29 21:51:32 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\image.png
-2026-06-29 21:51:32 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\new.txt
-2026-06-29 21:51:32 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\notes.pdf
-2026-06-29 21:51:32 | NEW FILE | C:\Users\MAHIKA DADHEECH\file_integrity_checker\monitored\subfolder\data.csv
-2026-06-29 21:51:32 | 127.0.0.1 - - [29/Jun/2026 21:51:32] "GET /check HTTP/1.1" 200 -
-2026-06-29 21:51:32 | 127.0.0.1 - - [29/Jun/2026 21:51:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-06-29 21:51:32 | 127.0.0.1 - - [29/Jun/2026 21:51:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:24:41 | [33mPress CTRL+C to quit[0m
+2026-06-30 22:24:41 |  * Restarting with watchdog (windowsapi)
+2026-06-30 22:24:41 |  * Debugger is active!
+2026-06-30 22:24:41 |  * Debugger PIN: 273-033-787
+2026-06-30 22:26:22 | 127.0.0.1 - - [30/Jun/2026 22:26:22] "GET / HTTP/1.1" 200 -
+2026-06-30 22:26:22 | 127.0.0.1 - - [30/Jun/2026 22:26:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:26:22 | 127.0.0.1 - - [30/Jun/2026 22:26:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:26:23 | 127.0.0.1 - - [30/Jun/2026 22:26:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-30 22:26:31 | 127.0.0.1 - - [30/Jun/2026 22:26:31] "GET /baseline HTTP/1.1" 200 -
+2026-06-30 22:26:31 | 127.0.0.1 - - [30/Jun/2026 22:26:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:26:31 | 127.0.0.1 - - [30/Jun/2026 22:26:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:26:37 | 127.0.0.1 - - [30/Jun/2026 22:26:37] "GET /check HTTP/1.1" 200 -
+2026-06-30 22:26:37 | 127.0.0.1 - - [30/Jun/2026 22:26:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:26:37 | 127.0.0.1 - - [30/Jun/2026 22:26:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:27:04 | MODIFIED | monitored/new.txt
+2026-06-30 22:27:04 | 127.0.0.1 - - [30/Jun/2026 22:27:04] "GET /check HTTP/1.1" 200 -
+2026-06-30 22:27:04 | 127.0.0.1 - - [30/Jun/2026 22:27:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:27:04 | 127.0.0.1 - - [30/Jun/2026 22:27:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:27:58 | DELETED | monitored/new.txt
+2026-06-30 22:27:58 | 127.0.0.1 - - [30/Jun/2026 22:27:58] "GET /check HTTP/1.1" 200 -
+2026-06-30 22:27:58 | 127.0.0.1 - - [30/Jun/2026 22:27:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:27:58 | 127.0.0.1 - - [30/Jun/2026 22:27:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:28:05 | DELETED | monitored/new.txt
+2026-06-30 22:28:05 | 127.0.0.1 - - [30/Jun/2026 22:28:05] "GET /check HTTP/1.1" 200 -
+2026-06-30 22:28:05 | 127.0.0.1 - - [30/Jun/2026 22:28:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:28:05 | 127.0.0.1 - - [30/Jun/2026 22:28:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:28:10 | DELETED | monitored/new.txt
+2026-06-30 22:28:10 | 127.0.0.1 - - [30/Jun/2026 22:28:10] "GET /check HTTP/1.1" 200 -
+2026-06-30 22:28:10 | 127.0.0.1 - - [30/Jun/2026 22:28:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:28:10 | 127.0.0.1 - - [30/Jun/2026 22:28:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-06-30 22:38:14 | DELETED | monitored/new.txt
+2026-06-30 22:38:14 | 127.0.0.1 - - [30/Jun/2026 22:38:14] "GET /check HTTP/1.1" 200 -
+2026-06-30 22:38:14 | 127.0.0.1 - - [30/Jun/2026 22:38:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-06-30 22:38:14 | 127.0.0.1 - - [30/Jun/2026 22:38:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -

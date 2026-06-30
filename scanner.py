@@ -5,5 +5,6 @@ def scan_directory(folder_path):
     files_list=[]
     for item in folder.rglob("*"):
         if item.is_file():
-            files_list.append(str(item))
+            files_list.append(str(item).replace("\\", "/"))
     return files_list
+

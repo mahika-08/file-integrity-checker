@@ -82,7 +82,7 @@
     <section class="card report-card">
       <h2 class="card-title">📊 Scan Report</h2>
 
-      {% if scan %}
+      {% if scan and scan.files %}
 
         <!-- Stats Row -->
         <div class="stats-grid">
@@ -147,6 +147,12 @@
           </table>
         </div>
 
+      {% elif scan %}
+        <div class="empty-state">
+          <p class="empty-icon">📭</p>
+          <p>Scan completed, but no files were found in this folder.</p>
+          <p class="empty-sub">Check that the folder path is correct: <code>{{ folder }}</code></p>
+        </div>
       {% else %}
         <div class="empty-state">
           <p class="empty-icon">🛡️</p>
